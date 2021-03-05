@@ -12,7 +12,9 @@
         android:id="@+id/iv"
         android:layout_width="60dp"
         android:layout_height="match_parent"
-        android:background="@mipmap/ic_launcher" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/tv_2"

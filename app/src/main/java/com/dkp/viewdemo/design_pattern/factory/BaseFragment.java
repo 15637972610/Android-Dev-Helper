@@ -11,13 +11,20 @@ import android.view.ViewGroup;
  * Created by Administrator on 2019/5/19.
  */
 
-public class BaseFragment extends Fragment {
+public abstract class BaseFragment extends Fragment {
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         doSomething();
     }
+
+    @Nullable
+    @Override
+    public View onCreateView (LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState){
+        return inflater.inflate(bindLayout(), container, false);
+    }
+    public abstract int bindLayout();
 
 
     private void doSomething() {

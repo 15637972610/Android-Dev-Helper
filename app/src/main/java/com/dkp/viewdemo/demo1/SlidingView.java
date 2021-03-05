@@ -2,7 +2,6 @@ package com.dkp.viewdemo.demo1;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.v4.widget.ViewDragHelper;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;

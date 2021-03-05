@@ -5,4 +5,8 @@ package com.dkp.viewdemo.design_pattern.factory;
  */
 
 public class FragmentA extends BaseFragment {
+    @Override
+    public int bindLayout (){
+        return 0;
+    }
 }

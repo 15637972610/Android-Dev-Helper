@@ -13,7 +13,6 @@ public class AnnotationTest {
         AnnotationProcessor.getFruitInfo(Fruit.class);
         Fruit f =new Fruit();
         new SoftReference<Fruit>(f);
-        HashMap
         LinkedList linkedList = new LinkedList();
         linkedList.add("dddd");
         linkedList.add("1233");

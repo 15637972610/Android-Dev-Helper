@@ -15,7 +15,7 @@ public class SimpleFactory {
                 return new FragmentB();
 
             default:
-                return new BaseFragment();
+                return new FragmentA();
         }
     }
 

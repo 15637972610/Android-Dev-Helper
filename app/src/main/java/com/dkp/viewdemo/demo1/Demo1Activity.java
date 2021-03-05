@@ -23,7 +23,5 @@ public class Demo1Activity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo1);
-//        LinkedList
-        Handler
     }
 }

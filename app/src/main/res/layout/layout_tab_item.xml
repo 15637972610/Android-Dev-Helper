@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/ll_tab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_tab_icon"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_youth_tab_fifth_normal" />
+
+        <TextView
+            android:id="@+id/tv_tab_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_horizontal"
+            android:text="我"
+            android:textColor="#ACACAC"
+            android:textSize="11dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_tab_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/ll_tab_container"
+        android:background="@drawable/shape_bg_circle_v5_mine"
+        android:gravity="center_horizontal"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:minWidth="14dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="1dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:visibility="gone"
+        tools:text="2"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/v_tab_DotView"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="28.5dp"
+        android:background="@drawable/shape_bg_circle_v4_mine"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

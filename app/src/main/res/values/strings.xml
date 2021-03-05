@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ViewDemo</string>
+    <string name="app_name">基础组件</string>
 
     <string name="expanded">expanded</string>
     <string name="collapsed">collapsed</string>
