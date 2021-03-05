@@ -1,12 +1,8 @@
 package com.dkp.viewdemo.ui;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import androidx.annotation.Nullable;
 
-import com.dkp.viewdemo.R;
 import com.dkp.viewdemo.design_pattern.factory.BaseFragment;
 import com.dkp.viewdemo.widget.tab.HomeTabView;
 import com.dkp.viewdemo.widget.tab.IMainTabInterface;

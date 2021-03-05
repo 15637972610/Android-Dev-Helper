@@ -1,8 +1,6 @@
 package com.dkp.viewdemo.design_pattern.decorator;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Created by dkp on 2019/5/20.

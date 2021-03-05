@@ -5,8 +5,8 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.view.View;
+import androidx.annotation.Nullable;
+
 import android.widget.Button;
 
 import com.dkp.viewdemo.R;

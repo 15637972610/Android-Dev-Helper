@@ -2,7 +2,7 @@ package com.dkp.viewdemo.demo_myattrs;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.dkp.viewdemo.R;
 

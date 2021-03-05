@@ -1,7 +1,7 @@
 package com.dkp.viewdemo.utils;
 
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;

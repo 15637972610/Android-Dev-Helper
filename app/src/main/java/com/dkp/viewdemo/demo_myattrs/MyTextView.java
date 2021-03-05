@@ -3,10 +3,10 @@ package com.dkp.viewdemo.demo_myattrs;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 
-import android.widget.TextView;import android.util.Log;
+import android.util.Log;
 
 import com.dkp.viewdemo.R;
 
@@ -14,7 +14,7 @@ import com.dkp.viewdemo.R;
  * Created by Administrator on 2019/5/8.
  */
 
-public class MyTextView extends android.support.v7.widget.AppCompatTextView {
+public class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
 
 
     public MyTextView(Context context) {

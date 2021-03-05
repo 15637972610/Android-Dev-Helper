@@ -2,7 +2,7 @@ package com.dkp.viewdemo.design_pattern.factory;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

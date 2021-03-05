@@ -1,6 +1,6 @@
 package com.dkp.viewdemo.image.delegate;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.bumptech.glide.load.engine.GlideException;
 

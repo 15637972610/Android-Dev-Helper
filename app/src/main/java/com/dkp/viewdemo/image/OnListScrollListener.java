@@ -16,7 +16,7 @@
 package com.dkp.viewdemo.image;
 
 import android.app.Activity;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
 * 滑动监听类
