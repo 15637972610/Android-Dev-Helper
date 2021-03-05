@@ -6,10 +6,9 @@ import android.content.Context;
 import android.os.Bundle;
 
 public class BaseLibApplication extends Application implements Application.ActivityLifecycleCallbacks {
-    private final String TAG = this.getClass().getSimpleName();
-    private static final String DB_NAME = "yocial_main.db";
+    private final String TAG = "BaseLibApplication";
+    private static final String DB_NAME = "main.db";
     private static boolean APP_RUNNING = false;
-    // instance在子类AppInitImpl中进行初始化赋值
     protected static Application instance;
     private static Context context;
     public static Application getInstance() {
@@ -19,9 +18,6 @@ public class BaseLibApplication extends Application implements Application.Activ
     public static void Exit() {
         getInstance().onTerminate();
     }
-
-    public Context mContext = null;
-
 
     @Override
     public void onCreate() {
